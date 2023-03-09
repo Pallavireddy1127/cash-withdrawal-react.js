@@ -1,0 +1,137 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
+    background-color: #150b3e;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 430px;
+    width: 50%;
+  }
+}
+
+.user-info-container {
+  display: flex;
+}
+
+.surname-container {
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+@media screen and(min-width:768px) {
+  .surname-container {
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;
+  }
+}
+
+.description {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.details {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 10px;
+}
+@media screen and(min-width:768px) {
+  .details {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+}
+.initial-balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+@media screen and(min-width:768px) {
+  .your-balance {
+    font-size: 16px;
+    margin: 5px;
+  }
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and(min-width:768px) {
+  .balance {
+    font-size: 30px;
+  }
+}
+
+.style {
+  color: #585076;
+  font-size: 10px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .style {
+    font-size: 10px;
+  }
+}
+.withdrawal {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .withdrawal {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+.choose-sum {
+  color: #585076;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .choose-sum {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+.denominations-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
